@@ -1,0 +1,9 @@
+/* outline of button will be none whenever we focus on that */
+.btn:focus {
+    outline: 0;
+}
+
+/* whenever click on button button will shake little bit */
+.btn:active {
+    transform: scale(0.98);
+}
