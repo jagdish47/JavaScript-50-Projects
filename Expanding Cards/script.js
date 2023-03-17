@@ -1,9 +1,9 @@
 const pannels = document.querySelectorAll(".pannel");
 
 pannels.forEach((pannel) => {
-  pannel.addEventListener("click", () => {
+  pannel.addEventListener("click", (event) => {
     removePannelClass();
-    pannel.classList.add("active");
+    pannel.classList.toggle("active");
   });
 });
 
